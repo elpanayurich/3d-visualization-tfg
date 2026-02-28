@@ -1,4 +1,4 @@
-# 6G Cell-Free & RIS Simulation
+# 6G Cell-Free & RIS Simulation (Vibe-coded)
 
 Interactive 3D visualization of a 6G Cell-Free architecture enhanced with Reconfigurable Intelligent Surfaces (RIS). Users are dynamically connected to Access Points directly or via reflecting elements to maximize signal quality and coverage in an urban environment. This is a support to visually explain my real TFG.
 
