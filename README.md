@@ -1,10 +1,10 @@
-# 6G Cell-Free & RIS Simulation 📡
+# 6G Cell-Free & RIS Simulation
 
 Interactive 3D visualization of a 6G Cell-Free architecture enhanced with Reconfigurable Intelligent Surfaces (RIS). Users are dynamically connected to Access Points directly or via reflecting elements to maximize signal quality and coverage in an urban environment.
 
 This project was built with **React**, **TypeScript**, **Three.js** (`@react-three/fiber`), and **Vite**.
 
-## 🚀 How to Run Locally (Windows)
+## How to Run Locally (Windows)
 
 If you've just cloned this repository to a Windows laptop, follow these steps to get the 3D simulation running locally.
 
@@ -41,7 +41,7 @@ Once the installation is complete, you can start the local development server:
 npm run dev
 ```
 
-### 4. View the Simulation 🌐
+### 4. View the Simulation 
 
 After running the command, Vite will provide a localized URL in your terminal. It will usually look like this:
 
@@ -54,13 +54,6 @@ After running the command, Vite will provide a localized URL in your terminal. I
 - Hold **`Ctrl`** and click the `http://localhost:5173/` link in your terminal, *or*
 - Open your preferred web browser (Chrome, Edge, Firefox) and paste `http://localhost:5173/` into the address bar.
 
-That's it! The 3D simulation should now be fully interactive in your browser.
-
-## 🛠️ Controls
-
-- ⌨️ **W, A, S, D** - Move Forward/Back/Left/Right
-- ⌨️ **Q / E** - Move Down / Up
-- 🏃 **Shift** - Sprint (Move Faster)
 - 🖱️ **Left Click + Drag** - Rotate View
 - ↕️ **Scroll Wheel** - Zoom In/Out
 
