@@ -4,6 +4,8 @@ Interactive 3D visualization of a 6G Cell-Free architecture enhanced with Reconf
 
 This project was built with **React**, **TypeScript**, **Three.js** (`@react-three/fiber`), and **Vite**.
 
+You can run it online here: https://codesandbox.io/p/sandbox/github/elpanayurich/3d-visualization-tfg
+
 ## How to Run Locally (Windows)
 
 If you've just cloned this repository to a Windows laptop, follow these steps to get the 3D simulation running locally.
