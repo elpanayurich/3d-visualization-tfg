@@ -1,6 +1,6 @@
 # 6G Cell-Free & RIS Simulation
 
-Interactive 3D visualization of a 6G Cell-Free architecture enhanced with Reconfigurable Intelligent Surfaces (RIS). Users are dynamically connected to Access Points directly or via reflecting elements to maximize signal quality and coverage in an urban environment.
+Interactive 3D visualization of a 6G Cell-Free architecture enhanced with Reconfigurable Intelligent Surfaces (RIS). Users are dynamically connected to Access Points directly or via reflecting elements to maximize signal quality and coverage in an urban environment. This is a support to visually explain my real TFG.
 
 This project was built with **React**, **TypeScript**, **Three.js** (`@react-three/fiber`), and **Vite**.
 
