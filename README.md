@@ -53,7 +53,3 @@ After running the command, Vite will provide a localized URL in your terminal. I
 
 - Hold **`Ctrl`** and click the `http://localhost:5173/` link in your terminal, *or*
 - Open your preferred web browser (Chrome, Edge, Firefox) and paste `http://localhost:5173/` into the address bar.
-
-- 🖱️ **Left Click + Drag** - Rotate View
-- ↕️ **Scroll Wheel** - Zoom In/Out
-
