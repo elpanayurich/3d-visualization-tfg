@@ -1,8 +1,6 @@
-# 6G Cell-Free & RIS Simulation (Vibe-coded)
+# 3D 6G Cell-Free & RIS Simulation as Visual Support (Vibe-coded)
 
-Interactive 3D visualization of a 6G Cell-Free architecture enhanced with Reconfigurable Intelligent Surfaces (RIS). Users are dynamically connected to Access Points directly or via reflecting elements to maximize signal quality and coverage in an urban environment. This is a support to visually explain my real TFG.
-
-This project was built with **React**, **TypeScript**, **Three.js** (`@react-three/fiber`), and **Vite**.
+Interactive 3D visualization of a 6G Cell-Free architecture with RISs. This is a support to visually explain my real TFG.
 
 You can run it online here: https://codesandbox.io/p/sandbox/github/elpanayurich/3d-visualization-tfg
 
@@ -12,7 +10,7 @@ If you've just cloned this repository to a Windows laptop, follow these steps to
 
 ### 1. Prerequisites
 
-You will need **Node.js** installed on your computer to run the Javascript tooling. 
+You will need **Node.js** installed on your computer. 
 - Download and install the latest LTS version for Windows from the official website: [Node.js Downloads](https://nodejs.org/).
 - Verify the installation by opening Command Prompt (`cmd`) or PowerShell and typing:
   ```powershell
@@ -53,5 +51,6 @@ After running the command, Vite will provide a localized URL in your terminal. I
   ➜  Local:   http://localhost:5173/
 ```
 
-- Hold **`Ctrl`** and click the `http://localhost:5173/` link in your terminal, *or*
-- Open your preferred web browser (Chrome, Edge, Firefox) and paste `http://localhost:5173/` into the address bar.
+Open http://localhost:5173/ and you will be able to see the project.
+
+*Please, this was totally done with the help of AI, don't take this as a real programming project, just as a tool to visualize scenarios in 3D*
