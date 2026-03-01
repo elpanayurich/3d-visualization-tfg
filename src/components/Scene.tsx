@@ -35,11 +35,23 @@ const generateData = () => {
       });
     }
   }
-
-  const users = Array.from({ length: NUM_USERS }).map(() => ({
-    // Users roam anywhere, typically on streets
-    position: [randomSpread(CITY_SIZE * 1.8), 0.2, randomSpread(CITY_SIZE * 1.8)] as [number, number, number]
-  }));
+  const users: any[] = [];
+  while (users.length < NUM_USERS) {
+    const ux = randomSpread(CITY_SIZE * 1.8);
+    const uz = randomSpread(CITY_SIZE * 1.8);
+    
+    const inBuilding = buildings.some(b => 
+      Math.abs(ux - b.position[0]) < (b.width / 2 + 0.5) &&
+      Math.abs(uz - b.position[2]) < (b.depth / 2 + 0.5)
+    );
+    
+    if (!inBuilding) {
+      users.push({
+        // Users roam anywhere, typically on streets
+        position: [ux, 0.2, uz] as [number, number, number]
+      });
+    }
+  }
 
   // Network Topology: 16 APs are hosted on the 'isAP' buildings.
   // We will generate their exact interpolated positions during the render phase.
